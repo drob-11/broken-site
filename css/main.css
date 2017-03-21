@@ -1,0 +1,19 @@
+.header {
+	text-align:center;
+	color:crimson;
+}
+
+.main-para {
+	text-align:center;
+	font-size:1.3em;
+	font-family:Times;
+}
+
+button {
+	padding:20px 30px 20px 30px;
+}
+
+.frame {
+	margin-top:15px;
+	text-align:center;
+}

@@ -2,13 +2,14 @@
 <html>
 	<head>
 		<title>Broken</title>
-		<script src="js/script.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 
-		<h1>Broken</h1>
-		<p>Broken Paragraph</p>
+		<h1 class="header">Broken</h1>
+		<p class="main-para">This Paragraph should be centered<br>
+			and justified and have a different<br>
+			font family to the rest of the page</p>
 
 		<ul class="interactive-list">
 			<li>Version COntrol</li>
@@ -25,7 +26,9 @@
 		<button class="colour-btns" onClick="changeCol('orange')">Orange</button>
 
 		<!-- Image slideshow 3 seconds -->
-		<img id="slider" class="centre" src="img/cat" alt="pets">
-
+		<div class="frame">
+			<img id="slider" class="centre" src="img/sharp.jpg" alt="pets">
+		</div>
+		<script src="js/script.js"></script>
 	</body>
 </html>
